@@ -82,7 +82,7 @@
             iframe {
                 border: 0; 
                 width: 100%; 
-                height: 110vh;
+                height: 100vh;
                 margin: 10px 0;
             }
 
@@ -97,6 +97,142 @@
                 box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
                 font-weight: 600;
             }
+
+            footer {
+            background: linear-gradient(135deg, #e8a0d0 0%, #c97fd4 50%, #a78bdb 100%);
+            color: #fff;
+            font-family: 'Nunito', sans-serif;
+            padding-top: 4px;
+            }
+            .footer-stripe {
+            height: 4px;
+            background: linear-gradient(90deg, #f9c2e0, #e07fd4, #a78bdb, #f9c2e0);
+            }
+            .footer-body {
+            padding: 48px 40px 32px;
+            max-width: 1100px;
+            margin: 0 auto;
+            }
+            .footer-grid {
+            display: grid;
+            grid-template-columns: 1.4fr 1fr 1fr;
+            gap: 40px;
+            padding-bottom: 36px;
+            border-bottom: 1px solid rgba(255,255,255,.3);
+            }
+            .footer-brand .brand-title {
+            font-size: 26px;
+            font-weight: 800;
+            color: #fff;
+            text-shadow: 0 1px 6px rgba(0,0,0,.15);
+            margin-bottom: 4px;
+            }
+            .footer-brand .brand-title span { color: #ffe0f5; }
+            .footer-brand .brand-sub {
+            font-size: 12.5px;
+            color: rgba(255,255,255,.75);
+            margin-bottom: 14px;
+            font-style: italic;
+            }
+            .footer-brand .brand-desc {
+            font-size: 13.5px;
+            line-height: 1.75;
+            color: rgba(255,255,255,.85);
+            margin-bottom: 20px;
+            }
+            .social-row { display: flex; gap: 10px; }
+            .social-btn {
+            width: 36px; height: 36px;
+            border-radius: 50%;
+            background: rgba(255,255,255,.25);
+            border: 1.5px solid rgba(255,255,255,.5);
+            display: flex; align-items: center; justify-content: center;
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            transition: background .2s, transform .15s;
+            }
+            .social-btn:hover {
+            background: rgba(255,255,255,.45);
+            transform: translateY(-2px);
+            }
+            .footer-col h4 {
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: .12em;
+            text-transform: uppercase;
+            color: #ffe0f5;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            }
+            .footer-col h4::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: rgba(255,255,255,.25);
+            }
+            .footer-col ul { list-style: none; }
+            .footer-col ul li { margin-bottom: 10px; }
+            .footer-col ul li a {
+            color: rgba(255,255,255,.85);
+            text-decoration: none;
+            font-size: 13.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: color .2s, gap .2s;
+            }
+            .footer-col ul li a:hover { color: #fff; gap: 12px; }
+            .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 13.5px;
+            color: rgba(255,255,255,.85);
+            margin-bottom: 12px;
+            }
+            .info-item .icon { font-size: 16px; margin-top: 1px; }
+            .info-item span { line-height: 1.55; }
+            .footer-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+            font-size: 12.5px;
+            color: rgba(255,255,255,.7);
+            flex-wrap: wrap;
+            gap: 10px;
+            }
+            .footer-bottom a { color: rgba(255,255,255,.7); text-decoration: none; transition: color .2s; }
+            .footer-bottom a:hover { color: #fff; }
+            .heart {
+            display: inline-block;
+            color: #ffe0f5;
+            animation: beat .9s ease-in-out infinite;
+            }
+            @keyframes beat {
+            0%,100%{ transform:scale(1); }
+            50%{ transform:scale(1.3); }
+            }
+            .footer-deco {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 8px;
+            opacity: .4;
+            letter-spacing: 6px;
+            }
+            @media (max-width: 720px) {
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+            .footer-brand { grid-column: 1 / -1; }
+            }
+            @media (max-width: 480px) {
+            .footer-grid { grid-template-columns: 1fr; }
+            .footer-body { padding: 36px 20px 24px; }
+            .footer-bottom { flex-direction: column; text-align: center; }
+            }
         </style>
     </head>
     <body>
@@ -110,11 +246,76 @@
         <nav>
             <a href="Trang chủ.html" target="noidung">Trang Chủ</a>
             <a href="thành  viên.html" target="noidung">Thành Viên</a>
-            <a href="" target="noidung">Cô Lĩnh Và Lớp</a>
             <a href="kỉ niệm.html" target="noidung">Kỉ Niệm</a>
             <a href="Liên Hệ.html" target="noidung">Liên Hệ</a>
         </nav>
         <iframe id="noidung" name="noidung" src="Trang chủ.html"></iframe>
-        <h3>@2026 A9K106. All Rights Reserved</h3>
+        
+        <footer>
+        <div class="footer-stripe"></div>
+        <div class="footer-body">
+
+            <div class="footer-deco">★ ✦ ★ ✦ ★</div>
+
+            <div class="footer-grid">
+
+            <!-- Cột thương hiệu -->
+            <div class="footer-brand">
+                <div class="brand-title">A9K106 <span>🎀</span></div>
+                <div class="brand-sub">Hội Người Uy Tín · Niên khoá 2023 – 2026</div>
+                <p class="brand-desc">
+                Nơi lưu giữ những kỷ niệm đẹp thời đi học — tiếng cười, những buổi học cùng nhau và tình bạn mãi mãi. 💕
+                </p>
+                <div class="social-row">
+                <a href="https://www.facebook.com/profile.php?id=61550883386745" class="social-btn" title="Facebook">f</a>
+                <a href="https://www.tiktok.com/@a9quaynhattrgc?_r=1&_t=ZS-94RGtq99EHq" class="social-btn" title="Tikok"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/>
+  </svg></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>🗂 Trang</h4>
+                <ul>
+                <li><a href="#"><span class="icon">🏠</span> Trang Chủ</a></li>
+                <li><a href="#"><span class="icon">👥</span> Thành Viên</a></li>
+                <li><a href="#"><span class="icon">📷</span> Album Ảnh</a></li>
+                <li><a href="#"><span class="icon">💫</span> Kỉ Niệm</a></li>
+                <li><a href="#"><span class="icon">📬</span> Liên Hệ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>📌 Lớp mình</h4>
+                <div class="info-item">
+                <span class="icon">🏫</span>
+                <span>Trường THPT Châu Văn Liêm<br/>TP. Cần Thơ</span>
+                </div>
+                <div class="info-item">
+                <span class="icon">👩‍🏫</span>
+                <span>GVCN: Cô Võ Hồng Lĩnh</span>
+                </div>
+                <div class="info-item">
+                <span class="icon">🎓</span>
+                <span>Lớp trưởng: Phạm Ngọc Minh</span>
+                </div>
+                <div class="info-item">
+                <span class="icon">🧑‍🤝‍🧑</span>
+                <span>Sĩ số: 41 học sinh</span>
+                </div>
+            </div>
+
+            </div>
+
+            <div class="footer-bottom">
+            <span>© 2026 A9K106 · Làm với <span class="heart">♥</span> bởi cả lớp</span>
+            <span>
+                <a href="#">Liên hệ</a> &nbsp;·&nbsp;
+                <a href="#">Lên đầu trang ↑</a>
+            </span>
+            </div>
+
+        </div>
+        </footer>
     </body>
 </html>
