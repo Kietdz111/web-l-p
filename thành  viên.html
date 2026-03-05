@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang="vi">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <title>Danh sách thành viên</title>
+            <style>
+                *{margin:0;padding:0;box-sizing:border-box}
+                body{font-family:Arial,sans-serif;padding:20px}
+                .section{max-width:900px;margin:auto}
+                h2{margin:30px 0 15px;color:#4a90e2}
+                .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+                .card{display:flex;gap:15px;align-items:center;padding:15px;background:#fff;border-radius:12px;border-left:6px solid}
+                .card img{width:70px;height:70px;border-radius:10px;object-fit:cover}
+                .info h3{margin:0 0 6px;font-size:18px}
+                .info p{margin:3px 0;color:#555;font-size:14px}
+                .leader{border-color:#f5a623;background:#fff8ee}
+                .member{border-color:#4a90e2}
+                @media(max-width:768px){.grid{grid-template-columns:1fr}}
+            </style>
+        </head>
+        <body>
+            <div class="section">
+                <h2>Ban cán sự</h2>
+                <div class="grid">
+                    <div class="card leader"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Phạm Ngọc Minh.jpg" alt="Phạm Ngọc Minh"><div class="info"><h3>Phạm Ngọc Minh</h3><p>📅 08/01/2008</p><p>⭐ ngủ,ăn bđmt,matchaholic</p><p>Chức vụ: Lớp trưởng</p></div></div>
+                    <div class="card leader"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Diễm Quỳnh hehe.jpg" alt="Nguyễn Ngọc Diễm Quỳnh"><div class="info"><h3>Nguyễn Ngọc Diễm Quỳnh</h3><p>📅 17/3/2008</p><p>⭐ Đồ ngọt, T1, nghe nhạc, gacha, tiền</p><p>Chức vụ: Bí thư</p></div></div>
+                    <div class="card leader"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 3/Kiến Văn.jpg" alt="Nguyễn Kiến Văn"><div class="info"><h3>Nguyễn Kiến Văn</h3><p>📅 01/10/2008</p><p>⭐ Toán, đam mê khoa học, công nghệ kỹ thuật, trò chơi, nghệ thuật</p><p>Chức vụ: Lớp phó học tập</p></div></div>
+                    <div class="card leader"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Dile.jpg" alt="Lê Ngọc Minh Vy"><div class="info"><h3>Lê Ngọc Minh Vy</h3><p>📅 27/9/2008</p><p>⭐ Trong sân có bóng, trong lòng có em</p><p>Chức vụ: Lớp phó lao động</p></div></div>
+                    <div class="card leader"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/Mai Minh Thư.jpg" alt="Mai Minh Thư"><div class="info"><h3>Mai Minh Thư</h3><p>📅 09/8/2008</p><p>⭐ có thời gian cùng bạn bè, nghe nhạc và matcha</p><p>Chức vụ: Lớp phó văn thể</p></div></div>
+                    <div class="card leader"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Xuân-Thy-nè-he.jpg" alt="Huỳnh Lê Xuân Thy"><div class="info"><h3>Huỳnh Lê Xuân Thy</h3><p>📅 27/3/2008</p><p>⭐ Iu động vật,thiên nhiên,chocolate,hột xoàn</p><p>Chức vụ: Tổ trưởng tổ 1</p></div></div>
+                    <div class="card leader"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/Dương Sáng.jpg" alt="Mai Dương Sáng"><div class="info"><h3>Mai Dương Sáng</h3><p>📅 03/4/2008</p><p>⭐ Ăn,ngủ,gym,calisthenic,đá banh,xem mma</p><p>Chức vụ: Tổ trưởng tổ 2</p></div></div>
+                    <div class="card leader"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 3/Minh Châu.jpg" alt="Đặng Ngọc Minh Châu"><div class="info"><h3>Đặng Ngọc Minh Châu</h3><p>📅 01/12/2008</p><p>⭐ Ăn ngủ chơi bời, học hành lơi lơi, ôm mộng tài phiệt</p><p>Chức vụ: Tổ trưởng tổ 3</p></div></div>
+                    <div class="card leader"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 4/Bé Minh Mẫn.png" alt="Trần Hồ Minh Mẫn"><div class="info"><h3>Trần Hồ Minh Mẫn</h3><p>📅 23/7/2008</p><p>⭐ Học tập và khám phá thế giới</p><p>Chức vụ: Tổ trưởng tổ 4</p></div></div>
+                    <div class="card leader"><img src="" alt="Lê Nguyễn Hông Trân"><div class="info"><h3>Lê Nguyễn Hông Trân</h3><p>📅 05/01/2008</p><p>Là lớp phó học tập của lớp từ năm học 2023-2024 và 2024-2025 và hiện tại bạn đã đi du học</p><p>Chức vụ: Lớp phó học tập (cũ)</p></div></div>
+                </div>
+                <h2>Thành viên</h2>
+                <div class="grid">
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/IMG_3177.JPG" alt="Nguyền Hoàng Anh"><div class="info"><h3>Nguyền Hoàng Anh</h3><p>📅 11/11/2008</p><p>⭐ Trái Nho, Đứng nhìn ra biển, đứng dưới trời mưa</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 3/Phương Anh.jpg" alt="Nguyễn Ngọc Phương Anh"><div class="info"><h3>Nguyễn Ngọc Phương Anh</h3><p>📅 29/01/2008</p><p>⭐ Iu lgiang,hà,xthy,mchou,han</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Vương Huỳnh Mai Anh.jpg" alt="Vương Huỳnh Mai Anh"><div class="info"><h3>Vương Huỳnh Mai Anh</h3><p>📅 04/11/2008</p><p>⭐ Makeup, nghe nhạc, kiếm tiền </p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/Trần Hồ Ngọc Châu.jpg" alt="Trần Hồ Ngọc Châu"><div class="info"><h3>Trần Hồ Ngọc Châu</h3><p>📅 09/9/2008</p><p>⭐ Kiếm tiền mua niềm vui, tận hưởng cuộc sống, làm đẹp</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 4/Gia Đạt.JPG" alt="Tôn Gia Đạt"><div class="info"><h3>Tôn Gia Đạt</h3><p>là thành viên mới của lớp năm học 2025-2026</p><p>⭐ Chinh phục và trải nghiệm điều mình muốn trước khi hẹo</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 3/Liêu Giang.jpg" alt="Đinh Mai Liêu Giang"><div class="info"><h3>Đinh Mai Liêu Giang</h3><p>📅 08/3/2008</p><p>⭐ Thích những thứ mình làm, làm những gì mình thích</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 3/Thanh Hà.jpg" alt="Lê Phan Thanh Hà"><div class="info"><h3>Lê Phan Thanh Hà</h3><p>📅 08/12/2008</p><p>⭐ Ăn, ngủ, cày phim, nghe kể chuyện ma</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Hân nè.jpg" alt="Lê Khả Hân"><div class="info"><h3>Lê Khả Hân</h3><p>📅 31/7/2008</p><p>⭐ deep talk, tiền, vàng</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/Võ Minh Hiển.jpg" alt="Võ Minh Hiến"><div class="info"><h3>Võ Minh Hiến</h3><p>📅 22/11/2008</p><p>⭐ xem phim, đồ ngọt, nặng sources ,shopping,  yêu màu hồng</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/Trung Hiếu.jpg" alt="Huỳnh Trung Hiếu"><div class="info"><h3>Huỳnh Trung Hiếu</h3><p>📅 22/01/2008</p><p>⭐ Điện ảnh, design và cà phê</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 3/Hồ Hưng.jpg" alt="Hồ Gia Hưng"><div class="info"><h3>Hồ Gia Hưng</h3><p>📅 30/6/2008</p><p>⭐ Tiền + Bất đẳng thức cauchy + One Piece</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 4/Khánh Hưng.jpg" alt="Lê Khánh Hưng"><div class="info"><h3>Lê Khánh Hưng</h3><p>📅 30/6/2008</p><p>⭐ nhạc hay, đồ ăn ngon và fashionnn</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 4/Thien Khanh.jpg" alt="Lê Huỳnh Thiên Khánh"><div class="info"><h3>Lê Huỳnh Thiên Khánh</h3><p>📅 24/11/2008</p><p>⭐ Nghệ thuật, tài chính và phở</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 3/Khoa.jpg" alt="Đoàn Trung Khoa"><div class="info"><h3>Đoàn Trung Khoa</h3><p>📅 14/9/2008</p><p>⭐ Tiền và Ems</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/Đăng Khôi.jpg" alt="Trần Võ Đăng Khôi"><div class="info"><h3>Trần Võ Đăng Khôi</h3><p>📅 03/6/2008</p><p>⭐ Ăn, ngủ, bóng rổ, tiền mua giày bóng rổ, kobe 6</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/Huỳnh Gia Khương_.jpg" alt="Huỳnh Gia Khương"><div class="info"><h3>Huỳnh Gia Khương</h3><p>📅 29/8/2008</p><p>⭐ bóng đá, bóng chuyền, ngủ, ăn ngon</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 3/Tuấn Kiệt.jpg" alt="Du Tuân Kiệt"><div class="info"><h3>Du Tuân Kiệt</h3><p>📅 30/10/2008</p><p>⭐ Thích công nghệ kĩ thuật, chơi cầu lông và bóng chuyền</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Nguyễn Trần Khánh Linh.jpg" alt="Nguyễn Trần Khánh Linh"><div class="info"><h3>Nguyễn Trần Khánh Linh</h3><p>📅 23/8/2008</p><p>⭐ Nghe nhạc, nhảy, xem phim</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/Thảo My.jpg" alt="Nguyễn Ngọc Thảo My"><div class="info"><h3>Nguyễn Ngọc Thảo My </h3><p>🎂 11/11/2008</p><p>⭐ Bread, Heiji Hattori, bắp cải cuộn thịt,</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Kim Ngân.jpg" alt="Trần Kim Ngân"><div class="info"><h3>Trần Kim Ngân </h3><p>🎂03/10/2008</p><p>⭐ Nghe nhạc, xem phim, chơi bóng chiền</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Ngọc.JPG" alt="Ngô Đào Như Ngọc"><div class="info"><h3>Ngô Đào Như Ngọc</h3><p>📅 11/08/2008</p><p>⭐ Ăn, ngủ, đi supermarket, đọc novel</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/Ngọc Ninh.jpg" alt="Đỗ Tôn Nữ Ngọc Ninh"><div class="info"><h3>Đỗ Tôn Nữ Ngọc Ninh</h3><p>📅 25/01/2008</p><p>⭐ Nghe nhạc, xem phim, đọc truyện</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Đinh Thịnh Phát.jpg" alt="Đinh Thịnh Phát"><div class="info"><h3>Đinh Thịnh Phát</h3><p>📅 05/02/2008</p><p>⭐ Lướt TikTok, Ở nhà ngủ, Iu đồ ngọt và tiền</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Phương Quyên.jpg" alt="Võ Thị Phương Quyên"><div class="info"><h3>Võ Thị Phương Quyên</h3><p>📅 13/6/2008</p><p>⭐ Nghe nhạc, ngủ, nghe chuyện ma></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 4/Bé Tài.jpg" alt="Huỳnh Lý Anh Tài"><div class="info"><h3>Huỳnh Lý Anh Tài</h3><p>📅 29/02/2008</p><p>⭐ Táo, táo</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 2/luan thanh.jpg" alt="Trần Bá Luân Thành"><div class="info"><h3>Trần Bá Luân Thành</h3><p>📅 29/02/2008</p><p>⭐ đá banh ,nuôi chó ,mèo, cá cảnh</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 3/Đức Thịnh.jpg" alt="Ngô Minh Đức Thịnh"><div class="info"><h3>Ngô Minh Đức Thịnh</h3><p>📅 11/8/2008</p><p>⭐ Gacha vận may, tính toán liền hay</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 4/Quangthông.jpg" alt="Phan Quang Thông"><div class="info"><h3>Phan Quang Thông</h3><p>📅 06/11/2008</p><p>⭐ YouTube, cơm tấm và cà phê</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 3/Cẩm Tú.jpg" alt="Lý Cẩm Tú"><div class="info"><h3>Lý Cẩm Tú</h3><p>📅 22/11/2006</p><p>⭐ Nghe nhạc, xem phim, lướt mạng</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 4/Tuấn.png" alt="La Quốc Tuấn"><div class="info"><h3>La Quốc Tuấn</h3><p>📅 26/07/2008</p><p>⭐ ngày đọc truyện làm game trưa cày beemas tối làm Archer</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 4/Vinh.JPG" alt="Nguyễn Công Vinh"><div class="info"><h3>Nguyễn Công Vinh</h3><p>📅 15/12/2008</p><p>⭐ Chiến thắng trên bàn cờ, chinh phục trong con số</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Tổ 1/Hồng Vy.jpg" alt="Trần Võ Hồng Vy"><div class="info"><h3>Trần Võ Hồng Vy</h3><p>📅 26/07/2008</p><p>⭐ tiêu tiền, xem phim, nghe nhạc, đọc truyện, esports</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Hiểu Lam.jpg" alt="Nguyễn Hiểu Lam"><div class="info"><h3>Nguyễn Hiểu Lam</h3><p>📅 02/07/2008</p><p>Từng là một thành viên của lớp năm học 2023-2024 và hiện nay đã đi du học nhưng vẫn là một phần không thể thiếu trong quá trình trưởng thành của lớp</p></div></div>
+                    <div class="card member"><img src="Ảnh/ẢNH HỒI NHỎ/Thảo Nguyên.jpg" alt="Huỳnh Ngọc Thảo Nguyên"><div class="info"><h3>Huỳnh Ngọc Thảo Nguyên</h3><p>📅 14/04/2008</p><p>Từng là một thành viên của lớp năm học 2023-2024 và hiện nay đã đi du học nhưng vẫn là một phần không thể thiếu trong quá trình trưởng thành của lớp</p></div></div>
+                </div>
+            </div>
+        </body>
+    </html>

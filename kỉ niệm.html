@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tổng hợp kỷ niệm</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      background:0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      padding: 40px 20px;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .ky-niem {
+      max-width: 600px;
+      width: 100%;
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    
+    .ky-niem h3 {
+      padding: 24px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      font-size: 24px;
+      text-align: center;
+    }
+    
+    .ky-niem ul {
+      padding: 28px;
+      list-style: none;
+    }
+    
+    .ky-niem li {
+      padding: 14px 20px 14px 50px;
+      margin-bottom: 12px;
+      background: #f8f9ff;
+      border-left: 4px solid #667eea;
+      border-radius: 8px;
+      position: relative;
+      transition: all 0.3s;
+    }
+    
+    .ky-niem li:hover {
+      transform: translateX(8px);
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+    }
+    
+    .ky-niem li::before {
+      position: absolute;
+      left: 18px;
+      font-size: 18px;
+    }
+    
+    .ky-niem li:nth-child(1)::before { content: '🏃'; }
+    .ky-niem li:nth-child(2)::before { content: '🎵'; }
+    .ky-niem li:nth-child(3)::before { content: '🎊'; }
+    .ky-niem li:nth-child(4)::before { content: '🌟'; }
+    .ky-niem li:nth-child(5)::before { content: '🔥'; }
+    .ky-niem li:nth-child(6)::before { content: '🎮'; }
+    .ky-niem li:nth-child(7)::before { content: '🏆'; }
+    .ky-niem li:nth-child(8)::before { content: '🎢'; }
+    .ky-niem li:nth-child(9)::before { content: '⚡'; }
+    .ky-niem li:nth-child(10)::before { content: '💻'; }
+    .ky-niem li:nth-child(11)::before { content: '❤️'; }
+  </style>
+</head>
+<body>
+  <div class="ky-niem">
+    <h3>Kỉ Niệm Của Lớp</h3>
+    <ul>
+      <li>Chạy việt dã</li>
+      <li>Tập và thi hát Quốc ca + hành khúc CVL</li>
+      <li>Cùng nhau tham gia hội chợ Xuân</li>
+      <li>Tham gia tích cực các phong trào tháng bộ môn</li>
+      <li>Múa quanh lửa hồng</li>
+      <li>Tham gia các trò chơi dân gian</li>
+      <li>Thi đấu các giải của trường</li>
+      <li>Cả lớp cùng nhau đi chơi Đầm Sen</li>
+      <li>Đi tham quan nhà máy điện Cần Thơ</li>
+      <li>Thi MOS</li>
+      <li>Cùng chia sẻ những kỷ niệm với thầy Hòa</li>
+    </ul>
+  </div>
+</body>
+</html>
