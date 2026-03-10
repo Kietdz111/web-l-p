@@ -249,12 +249,17 @@
             <a href="kỉ niệm.html" target="noidung">Kỉ Niệm</a>
             <a href="Liên Hệ.html" target="noidung">Liên Hệ</a>
         </nav>
-        <iframe id="noidung" name="noidung" src="Trang chủ.html" style="width:100%; border:none;" onload="resizeIframe(this)"></iframe>
+        <iframe id="noidung" name="noidung" src="Trang chủ.html" style="width:100%; border:none;">
+        </iframe>
         <script>
-function resizeIframe(iframe) {
-    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
+function resizeIframe() {
+    const iframe = document.getElementById("noidung");
+    iframe.style.height =
+        iframe.contentWindow.document.body.scrollHeight + "px";
 }
-        </script>
+
+document.getElementById("noidung").addEventListener("load", resizeIframe);
+         </script>
 
         <footer>
         <div class="footer-stripe"></div>
