@@ -249,7 +249,12 @@
             <a href="kỉ niệm.html" target="noidung">Kỉ Niệm</a>
             <a href="Liên Hệ.html" target="noidung">Liên Hệ</a>
         </nav>
-        <iframe id="noidung" name="noidung" src="Trang chủ.html"></iframe>
+        <iframe id="noidung" name="noidung" src="Trang chủ.html" style="width:100%; border:none;" onload="resizeIframe(this)"></iframe>
+        <script>
+function resizeIframe(iframe) {
+    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + "px";
+}
+</script>
 
         <footer>
         <div class="footer-stripe"></div>
@@ -259,7 +264,6 @@
 
             <div class="footer-grid">
 
-            <!-- Cột thương hiệu -->
             <div class="footer-brand">
                 <div class="brand-title">A9K106 <span>🎀</span></div>
                 <div class="brand-sub">Hội Người Uy Tín · Niên khoá 2023 – 2026</div>
